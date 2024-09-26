@@ -200,6 +200,18 @@ class PeakAnalyzer:
         axs.legend(frameon=False, fontsize=14)
         plt.show()
 
+class GUI:
+    '''
+    This class contains the GUI representation of the fitting code. 
+    '''
+
+
+    def __init__(self):
+    """.
+    """
+
+
+
 
 
 def gaussian(x, mu, sig):
